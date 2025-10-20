@@ -23,17 +23,28 @@ git init                          # Crea repo local
 git clone <url> [carpeta]         # Clona remoto
 
 # STAGING & COMMITS
-git status                        # Estado
-git add .                         # Prepara cambios
+git status                        # Verifica estado del repositorio
+git add .                         # PAgrega todos los archivos a staging
+git add <archivo>                 # Agrega archivo específico
 git commit -m "Mensaje claro"     # Guarda
 git commit -am "..."              # Add + commit (tracked only)
+git commit --amend -m "Nuevo msg" # Modifica último commit
+git revert <commit>               # Revierte commit
+git reset                         # Saca archivos de staging
 
 # RAMAS
 git branch                        # Lista ramas
-git checkout -b nueva-rama        # Crea y cambia
+git branch <nombre>               # Crea nueva rama
+git branch -M <new-name>          # Renombra rama actual
+git branch -d rama                # Elimina rama
+git checkout -b nueva-rama        # Crea y cambia a nueva rama
 git checkout main                 # Cambia a main
-git merge rama                    # Integra
-git branch -d rama                # Elimina
+git checkout                      # Ver cambios pendientes
+git switch <rama>                 # Cambia de rama
+git switch -c nueva-rama          # Crea y cambia a nueva rama
+git merge rama                    # Integra rama
+
+
 
 # REPOSITORIO REMOTO
 git remote -v                     # Ver remotos
@@ -43,13 +54,16 @@ git push origin main              # Sube cambios
 
 
 # HISTORIAL
+git log                           # Historial completo
 git log --oneline                 # Historial commit compacto
 git log --graph --all             # Con ramas
 git reflog                        # Recupera commits perdidos
 
 # 🏷ETIQUETAS
-git tag -a v1.0.0 -m "Lanzamiento"
-git push --tags                   # ¡Sube tags manualmente!
+git tag                             # Lista tags
+git tag -a v1.0.0 -m "Lanzamiento"  # Agrega tag con descripción
+git push origin --tags              # Sube todos los tags
+git push --tags                     # ¡Sube tags manualmente!
 
 # STASH (guardado temporal)
 git stash                         # Guarda cambios
@@ -70,6 +84,11 @@ git rebase -i HEAD~3              # Edita últimos 3 commits
 git merge --abort                 # Cancela merge
 git rebase --abort                # Cancela rebase
 git clean -fd                     # Borra archivos no rastreados
+git rm -r --cached <archivo>      # Elimina archivo del índice de git
+git reset --mixed <commit>        # Saca archivos de staging pero mantiene los cambios en el working directory
+git reset --soft <commit>         # Deshace commits pero mantiene los cambios en staging
+git reset --hard <commit>         # Deshace commits y borra todos los cambios
+
 
 # ALIASES (mejora flujo)
 git config --global alias.s "status --short"
