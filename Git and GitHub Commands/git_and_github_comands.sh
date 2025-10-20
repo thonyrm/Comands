@@ -6,6 +6,18 @@ git config --global user.email "tu@email.com"
 git config --global init.defaultBranch main
 git config --global pull.rebase true
 
+git config --global core.editor "code --wait"   # Usa VSCode como editor
+git config --list                               # Ver configuración
+git config --global credential.helper manager   # Guarda credenciales (Windows)
+
+# ELIMINAR CONFIGURACIONES
+git config --global --unset user.name               # Elimina nombre global
+git config --global --unset user.email              # Elimina email global
+git config --unset user.name                        # Elimina nombre local 
+git config --unset user.email                       # Elimina email local
+git remote remove origin                            # Elimina repositorio remoto
+
+
 # INICIO
 git init                          # Crea repo local
 git clone <url> [carpeta]         # Clona remoto
@@ -23,8 +35,15 @@ git checkout main                 # Cambia a main
 git merge rama                    # Integra
 git branch -d rama                # Elimina
 
+# REPOSITORIO REMOTO
+git remote -v                     # Ver remotos
+git remote add origin <url>       # Añade remoto
+git push -u origin main           # Sube rama y establece upstream
+git push origin main              # Sube cambios
+
+
 # HISTORIAL
-git log --oneline                 # Compacto
+git log --oneline                 # Historial commit compacto
 git log --graph --all             # Con ramas
 git reflog                        # Recupera commits perdidos
 
@@ -60,6 +79,7 @@ git config --global alias.co checkout
 
 # FLUJO DIARIO
 git pull → haz cambios → git add . → git commit -m "..." → git push
+
 
 # Tips: 
 # - Mensajes en imperativo: "feat(login): Agrega login", no "feat(login): Agregué login"
