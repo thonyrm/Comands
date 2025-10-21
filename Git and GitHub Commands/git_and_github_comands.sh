@@ -29,8 +29,9 @@ git add <archivo>                 # Agrega archivo específico
 git commit -m "Mensaje claro"     # Guarda
 git commit -am "..."              # Add + commit (tracked only)
 git commit --amend -m "Nuevo msg" # Modifica último commit
-git revert <commit>               # Revierte commit
-git reset                         # Saca archivos de staging
+git revert <commit>               # Crea un nuevo commit que deshace los cambios del un commit anterior, sin alterar el historial
+git reset                         # Deshace commits anteriores en el historial
+git restore <archivo>             # Restaura archivo al estado del último commit
 
 # RAMAS
 git branch                        # Lista ramas
