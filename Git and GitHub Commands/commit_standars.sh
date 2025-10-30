@@ -3,7 +3,6 @@
 # Formato: 🎯 <tipo>(<alcance>): <descripción>
 
 # EJEMPLO:
-
 # ✨ feat(misiones): agregar nueva misión de reconocimiento
 
 # TIPOS MÁS COMUNES:
