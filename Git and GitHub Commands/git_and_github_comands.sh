@@ -100,7 +100,6 @@ git config --global alias.co checkout
 # FLUJO DIARIO
 git pull → haz cambios → git add . → git commit -m "..." → git push
 
-
 # Tips: 
 # - Mensajes en imperativo: "feat(login): Agrega login", no "feat(login): Agregué login"
 # - Usa git diff antes de commit
