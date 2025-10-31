@@ -17,7 +17,6 @@ git config --unset user.name                        # Elimina nombre local
 git config --unset user.email                       # Elimina email local
 git remote remove origin                            # Elimina repositorio remoto
 
-
 # INICIO
 git init                          # Crea repo local
 git clone <url> [carpeta]         # Clona remoto
@@ -44,8 +43,6 @@ git checkout                      # Ver cambios pendientes
 git switch <rama>                 # Cambia de rama
 git switch -c nueva-rama          # Crea y cambia a nueva rama
 git merge rama                    # Integra rama
-
-
 
 # REPOSITORIO REMOTO
 git remote -v                     # Ver remotos
@@ -89,7 +86,6 @@ git rm -r --cached <archivo>      # Elimina archivo del índice de git
 git reset --mixed <commit>        # Saca archivos de staging pero mantiene los cambios en el working directory
 git reset --soft <commit>         # Deshace commits pero mantiene los cambios en staging
 git reset --hard <commit>         # Deshace commits y borra todos los cambios
-
 
 # ALIASES (mejora flujo)
 git config --global alias.s "status --short"
