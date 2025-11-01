@@ -50,7 +50,6 @@ git remote add origin <url>       # Añade remoto
 git push -u origin main           # Sube rama y establece upstream
 git push origin main              # Sube cambios
 
-
 # HISTORIAL
 git log                           # Historial completo
 git log --oneline                 # Historial commit compacto
