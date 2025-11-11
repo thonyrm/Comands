@@ -17,7 +17,6 @@ git config --unset user.name                        # Elimina nombre local
 git config --unset user.email                       # Elimina email local
 git remote remove origin                            # Elimina repositorio remoto
 
-
 # INICIO
 git init                          # Crea repo local
 git clone <url> [carpeta]         # Clona remoto
@@ -45,14 +44,11 @@ git switch <rama>                 # Cambia de rama
 git switch -c nueva-rama          # Crea y cambia a nueva rama
 git merge rama                    # Integra rama
 
-
-
 # REPOSITORIO REMOTO
 git remote -v                     # Ver remotos
 git remote add origin <url>       # Añade remoto
 git push -u origin main           # Sube rama y establece upstream
 git push origin main              # Sube cambios
-
 
 # HISTORIAL
 git log                           # Historial completo
@@ -90,7 +86,6 @@ git reset --mixed <commit>        # Saca archivos de staging pero mantiene los c
 git reset --soft <commit>         # Deshace commits pero mantiene los cambios en staging
 git reset --hard <commit>         # Deshace commits y borra todos los cambios
 
-
 # ALIASES (mejora flujo)
 git config --global alias.s "status --short"
 git config --global alias.lg "log --graph --oneline --all"
@@ -99,7 +94,6 @@ git config --global alias.co checkout
 
 # FLUJO DIARIO
 git pull → haz cambios → git add . → git commit -m "..." → git push
-
 
 # Tips: 
 # - Mensajes en imperativo: "feat(login): Agrega login", no "feat(login): Agregué login"
