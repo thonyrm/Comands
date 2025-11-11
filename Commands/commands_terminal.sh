@@ -4,3 +4,13 @@
 chmod       # Cambia permisos de un archivo
 chown       # Cambia propietario de un archivo
 sudo        # Ejecuta comandos como administrador 
+
+# Búsqueda de ficheros
+
+find        # Buscar archivos en directorios
+grep        # Buscar texto dentro de archivos
+
+# Utilidades de red
+ping        # Comprueba conexión con una dirección
+curl        # Realiza peticiones HTTP
+wget        # descarga archivos desde una url 
