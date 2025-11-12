@@ -14,3 +14,12 @@ grep        # Buscar texto dentro de archivos
 ping        # Comprueba conexión con una dirección
 curl        # Realiza peticiones HTTP
 wget        # descarga archivos desde una url 
+
+# Procesos del sistema
+top         # Muestra procesos en ejecución
+ps          # Lista procesos activos
+kill        # Termina un proceso
+df -h       # Muestra espacio disponible en disco
+du -sh      # Muestra tamaño de archivos y carpetas
+uptime      # Muestra tiempo encendido y carga del sistema
+clear       # Limplia la terminal
