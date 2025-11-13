@@ -23,3 +23,11 @@ df -h       # Muestra espacio disponible en disco
 du -sh      # Muestra tamaño de archivos y carpetas
 uptime      # Muestra tiempo encendido y carga del sistema
 clear       # Limplia la terminal
+
+# Utilidades del sistema
+echo        # Imprime texto en la terminal 
+history     # Muestra historial de comandos
+man         # Muestra el manual de un comando
+nano        # Editor de texto básico
+vim         # Editor de texto avanzado
+
