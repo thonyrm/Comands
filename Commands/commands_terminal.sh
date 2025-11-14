@@ -31,3 +31,8 @@ man         # Muestra el manual de un comando
 nano        # Editor de texto básico
 vim         # Editor de texto avanzado
 
+# Navegación
+ls          # Lista archivos y carpetas
+cd          # Cambia de directorio
+pwd         # Muestra la ruta del directorio actual 
+tree        # muestra la estructura de carpetas
