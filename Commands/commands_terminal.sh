@@ -36,3 +36,9 @@ ls          # Lista archivos y carpetas
 cd          # Cambia de directorio
 pwd         # Muestra la ruta del directorio actual 
 tree        # muestra la estructura de carpetas
+
+# Lectura de archivos
+cat         # Muestra el contenido de un archivo
+less        # Visualiza un archivo página por página 
+head        # Muestra las primeras líneas de un archivo 
+tail        # Muestras las últimas líneas de un archivo
