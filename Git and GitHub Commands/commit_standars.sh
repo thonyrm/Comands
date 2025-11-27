@@ -58,7 +58,6 @@ git config --local commit.template .gitmessage
 }
 
 # 3. GitHub Copilot (commit instructions)
-
 # Instrucciones para generar mensajes coherentes:
 # → Usa formato: 🎯 <tipo>(<alcance>): <descripción>
 # → Ej: ✨ feat(auth): implementar login con OAuth
