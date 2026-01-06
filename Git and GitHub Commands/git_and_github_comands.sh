@@ -1,5 +1,15 @@
 # GIT + GITHUB – CHEAT SHEET
 
+# Que es GIT: Git es una herramienta de control de versiones. 
+# Que es GITHUB :Repositorios remotos. Almacena y gestiona repositorios de Git en la nube. 
+ 
+ #¿ Por qué Git ?
+
+# *Descentralizado*. Cada desarrollador tiene una completa del historial del proyecto. 
+# *Rendimiento*. Git es rápido, eficiente, incluso para proyectos grandes. 
+# *Popularidad*. Amplia adopción en la industria, con una gran comunidad de soporte. 
+# *Flexibilidad*. Soporta flujos de trabajo complejos y permite un desarrollo más ágil. 
+
 # CONFIGURACIÓN INICIAL
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu@email.com"
@@ -71,6 +81,8 @@ git stash list                    # Ver stashes
 git reset --soft HEAD~1           # Deshace commit, mantiene staging
 git reset --hard HEAD~1           # ⚠Borra todo
 git checkout -- .                 # Descarta cambios locales
+Remove-Item -Recurse -Force .git  # Remueve la carpeta .git 
+
 
 # REBASE (historial limpio)
 git rebase main                   # Aplica encima de main
