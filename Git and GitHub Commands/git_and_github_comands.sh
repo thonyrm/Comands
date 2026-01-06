@@ -81,7 +81,6 @@ git stash list                    # Ver stashes
 git reset --soft HEAD~1           # Deshace commit, mantiene staging
 git reset --hard HEAD~1           # ⚠Borra todo
 git checkout -- .                 # Descarta cambios locales
-Remove-Item -Recurse -Force .git  # Remueve la carpeta .git 
 
 
 # REBASE (historial limpio)
@@ -97,6 +96,7 @@ git rm -r --cached <archivo>      # Elimina archivo del índice de git
 git reset --mixed <commit>        # Saca archivos de staging pero mantiene los cambios en el working directory
 git reset --soft <commit>         # Deshace commits pero mantiene los cambios en staging
 git reset --hard <commit>         # Deshace commits y borra todos los cambios
+Remove-Item -Recurse -Force .git  # Remueve la carpeta .git 
 
 # ALIASES (mejora flujo)
 git config --global alias.s "status --short"
@@ -106,6 +106,15 @@ git config --global alias.co checkout
 
 # FLUJO DIARIO
 git pull → haz cambios → git add . → git commit -m "..." → git push
+
+# IMPORTANTE
+# Agregar carpeta git ignore 
+# Es un archivo de configuración en Git que le indica a Git que archivos o carpetas debe ignorar 
+# al realizar operaciones como git add o git commit. 
+# Estos archivos y carpetas ignorados no se incluirán en el control de versiones de git,
+# lo que significa que Git los ignorará por completo y nos los rastreará ni los incluirá en tus commits. 
+# Dentro de .gitignore, puedes listar los nombres de archivos, carpetas o patrones de nombres de archivos que deseas ignorar. 
+
 
 # Tips: 
 # - Mensajes en imperativo: "feat(login): Agrega login", no "feat(login): Agregué login"
