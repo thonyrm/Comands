@@ -4,7 +4,6 @@
 # Que es GITHUB :Repositorios remotos. Almacena y gestiona repositorios de Git en la nube. 
  
 # ¿ Por qué Git ?
-
 # *Descentralizado*. Cada desarrollador tiene una completa del historial del proyecto. 
 # *Rendimiento*. Git es rápido, eficiente, incluso para proyectos grandes. 
 # *Popularidad*. Amplia adopción en la industria, con una gran comunidad de soporte. 
