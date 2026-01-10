@@ -114,7 +114,6 @@ git pull → haz cambios → git add . → git commit -m "..." → git push
 # lo que significa que Git los ignorará por completo y nos los rastreará ni los incluirá en tus commits. 
 # Dentro de .gitignore, puedes listar los nombres de archivos, carpetas o patrones de nombres de archivos que deseas ignorar. 
 
-
 # Tips: 
 # - Mensajes en imperativo: "feat(login): Agrega login", no "feat(login): Agregué login"
 # - Usa git diff antes de commit
