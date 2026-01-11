@@ -41,5 +41,3 @@ cat         # Muestra el contenido de un archivo
 less        # Visualiza un archivo página por página 
 head        # Muestra las primeras líneas de un archivo 
 tail        # Muestras las últimas líneas de un archivo
-
-# Otros
