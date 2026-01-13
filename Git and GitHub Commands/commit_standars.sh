@@ -1,5 +1,4 @@
 # ESTÁNDARES DE COMMITS – CONVENTIONAL COMMITS + EMOJIS
-
 # Formato: 🎯 <tipo>(<alcance>): <descripción>
 
 # EJEMPLO:
