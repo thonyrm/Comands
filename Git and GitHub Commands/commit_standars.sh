@@ -5,7 +5,6 @@
 # ✨ feat(misiones): agregar nueva misión de reconocimiento
 
 # TIPOS MÁS COMUNES:
-
 # ✨ feat     - Nueva funcionalidad
 # 🐛 fix      - Corrección de errores
 # 📚 docs     - Cambios en documentación
@@ -18,14 +17,12 @@
 # 💥 BREAKING - Cambios que rompen compatibilidad
 
 # REGLAS:
-
 # • Máximo 50 caracteres en la primera línea
 # • Usa imperativo: "agregar", no "agregado" o "agrega"
 # • Sin punto final en la descripción
 # • Línea en blanco entre título y cuerpo
 
 # CUERPO DEL COMMIT (opcional):
-
 # - Explica el QUÉ y el POR QUÉ (no el CÓMO)
 # - Máximo 72 caracteres por línea
 # - Ej: "Se agrega validación para evitar inyección XSS"
