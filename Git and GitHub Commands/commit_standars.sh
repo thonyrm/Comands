@@ -5,6 +5,7 @@
 # ✨ feat(misiones): agregar nueva misión de reconocimiento
 
 # TIPOS MÁS COMUNES:
+
 # ✨ feat     - Nueva funcionalidad
 # 🐛 fix      - Corrección de errores
 # 📚 docs     - Cambios en documentación
@@ -17,6 +18,7 @@
 # 💥 BREAKING - Cambios que rompen compatibilidad
 
 # REGLAS:
+
 # • Máximo 50 caracteres en la primera línea
 # • Usa imperativo: "agregar", no "agregado" o "agrega"
 # • Sin punto final en la descripción
