@@ -134,3 +134,4 @@ git pull → haz cambios → git add . → git commit -m "..." → git push
 # - Usa git diff antes de commit
 # - Los tags y stashes NO se suben solos
 # - Practica en repos de prueba antes de producción
+
