@@ -64,3 +64,4 @@ git config --local commit.template .gitmessage
 # → Primera línea ≤50 chars, sin punto final
 # → Cuerpo: qué + por qué, ≤72 chars/línea
 
+
